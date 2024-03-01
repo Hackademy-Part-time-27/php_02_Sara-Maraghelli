@@ -1,38 +1,53 @@
 <?
 //Traccia 1
-// $users = [
-//     [
-//         'name' => 'Davide',
-//         'surname' => 'Cariola',
-//         'gender' => 'male',
-//     ],
+$users = [
+    [
+        'name' => 'Davide',
+        'surname' => 'Cariola',
+        'gender' => 'male',
+    ],
 
-//     [
-//         'name' => 'Sara',
-//         'surname' => 'Maraghelli',
-//         'gender' => 'female'
-//     ],
+    [
+        'name' => 'Sara',
+        'surname' => 'Maraghelli',
+        'gender' => 'female'
+    ],
+    [
+        'name' => 'Carlo',
+        'surname' => 'Anselmi',
+        'gender' => 'NB'
+    ],
 
-//     [
-//         'name' => 'Antonio',
-//         'surname' => 'Rossi',
-//         'gender' => 'male'
-//     ],
 
-//     [
-//         'name' => 'Giulia',
-//         'surname' => 'Bianchi',
-//         'gender' => 'female'
-//     ],
-// ];
+    [
+        'name' => 'Antonio',
+        'surname' => 'Rossi',
+        'gender' => 'male'
+    ],
 
-// for ($i = 0; $i < count($users); $i++) {
-//     if ($users[$i]['gender'] === 'female') {
-//         echo 'Buongiorno signora ' . $users[$i]['name'] ." ". $users[$i]['surname']. "\n";
-//     } else {
-//         echo 'Buongiorno signor ' . $users[$i]['name'] ." ". $users[$i]['surname']. "\n";
-//     }
-// }
+    [
+        'name' => 'Giulia',
+        'surname' => 'Bianchi',
+        'gender' => 'female'
+    ],
+    [
+        'name' => 'Chiara',
+        'surname' => 'Filippi',
+        'gender' => 'NB'
+    ],
+
+
+];
+
+for ($i = 0; $i < count($users); $i++) {
+    if ($users[$i]['gender'] === 'female') {
+        echo 'Buongiorno signora ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
+    } else if ($users[$i]['gender'] === 'NB') {
+        echo 'Buongiorno  ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
+    } else {
+        echo 'Buongiorno signor ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
+    }
+}
 
 //Traccia 2
 

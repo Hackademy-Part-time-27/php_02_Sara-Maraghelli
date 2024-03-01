@@ -1,57 +1,57 @@
 <?
 //Traccia 1
-$users = [
-    [
-        'name' => 'Davide',
-        'surname' => 'Cariola',
-        'gender' => 'male',
-    ],
+// $users = [
+//     [
+//         'name' => 'Davide',
+//         'surname' => 'Cariola',
+//         'gender' => 'male',
+//     ],
 
-    [
-        'name' => 'Sara',
-        'surname' => 'Maraghelli',
-        'gender' => 'female'
-    ],
-    [
-        'name' => 'Carlo',
-        'surname' => 'Anselmi',
-        'gender' => 'NB'
-    ],
-
-
-    [
-        'name' => 'Antonio',
-        'surname' => 'Rossi',
-        'gender' => 'male'
-    ],
-
-    [
-        'name' => 'Giulia',
-        'surname' => 'Bianchi',
-        'gender' => 'female'
-    ],
-    [
-        'name' => 'Chiara',
-        'surname' => 'Filippi',
-        'gender' => 'NB'
-    ],
+//     [
+//         'name' => 'Sara',
+//         'surname' => 'Maraghelli',
+//         'gender' => 'female'
+//     ],
+//     [
+//         'name' => 'Carlo',
+//         'surname' => 'Anselmi',
+//         'gender' => 'NB'
+//     ],
 
 
-];
+//     [
+//         'name' => 'Antonio',
+//         'surname' => 'Rossi',
+//         'gender' => 'male'
+//     ],
 
-for ($i = 0; $i < count($users); $i++) {
-    if ($users[$i]['gender'] === 'female') {
-        echo 'Buongiorno signora ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
-    } else if ($users[$i]['gender'] === 'NB') {
-        echo 'Buongiorno  ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
-    } else {
-        echo 'Buongiorno signor ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
-    }
-}
+//     [
+//         'name' => 'Giulia',
+//         'surname' => 'Bianchi',
+//         'gender' => 'female'
+//     ],
+//     [
+//         'name' => 'Chiara',
+//         'surname' => 'Filippi',
+//         'gender' => 'NB'
+//     ],
+
+
+// ];
+
+// for ($i = 0; $i < count($users); $i++) {
+//     if ($users[$i]['gender'] === 'female') {
+//         echo 'Buongiorno signora ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
+//     } else if ($users[$i]['gender'] === 'NB') {
+//         echo 'Buongiorno  ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
+//     } else {
+//         echo 'Buongiorno signor ' . $users[$i]['name'] . " " . $users[$i]['surname'] . "\n";
+//     }
+// }
 
 //Traccia 2
 
-// $array = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+// $array = [1, 2, 3, 4, 5, 6, 7, 8, 9,10];
 // $sommaNumeriPari = 0;
 // $numeriPari = 0;
 
@@ -62,10 +62,11 @@ for ($i = 0; $i < count($users); $i++) {
 //     }
 
 // };
-// if ($numeriPari > 0) {
 //     $media = $sommaNumeriPari / $numeriPari;
+//     echo 'la somma dei numeri pari è ' . $sommaNumeriPari. " \n";
+//     echo 'l iterazione dei numeri pari è '. $numeriPari. " \n";
 //     echo 'La media dei numeri pari è ' . $media;
-// };
+
 
 
 //Traccia 3

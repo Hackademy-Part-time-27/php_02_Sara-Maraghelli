@@ -84,7 +84,21 @@
 //     }
 // };
 
-
-
+//traccia 3 con switch
+// for ($i = 0; $i <= 100; $i++) {
+//     switch ($i) {
+//         case $i % 3 === 0 && $i % 5 === 0;
+//             echo 'HACKADEMY'. "\n";
+//             break;
+//         case $i % 5 === 0;
+//             echo 'SCRIPT'. "\n";
+//             break;
+//         case $i % 3 === 0;
+//             echo 'PHP'. "\n";
+//             break;
+//         default:
+//             break;
+//     }
+// }
 
 
